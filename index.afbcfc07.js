@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=function(e){Array.from(e.childNodes).forEach(function(e){if(3===e.nodeType){var t=document.createElement("span");t.textContent=e.textContent,e.parentNode.replaceChild(t,e)}})},t=document.querySelector(".tree");t.querySelectorAll("li").forEach(function(t){t.querySelectorAll("ul")&&e(t)}),t.addEventListener("click",function(e){if("SPAN"===e.target.tagName){var t=e.target.nextElementSibling;t&&"UL"===t.tagName&&(t.hidden=!t.hidden)}})});
+//# sourceMappingURL=index.afbcfc07.js.map
